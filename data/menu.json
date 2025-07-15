@@ -1,0 +1,705 @@
+{
+  "categories": [
+    {
+      "id": "appetizers",
+      "name": "Appetizers",
+      "icon": "🥗",
+      "color": "from-green-400 to-emerald-500"
+    },
+    {
+      "id": "burgers",
+      "name": "Burgers",
+      "icon": "🍔",
+      "color": "from-yellow-400 to-orange-500"
+    },
+    {
+      "id": "pizza",
+      "name": "Pizza",
+      "icon": "🍕",
+      "color": "from-red-400 to-pink-500"
+    },
+    {
+      "id": "pasta",
+      "name": "Pasta",
+      "icon": "🍝",
+      "color": "from-purple-400 to-indigo-500"
+    },
+    {
+      "id": "seafood",
+      "name": "Seafood",
+      "icon": "🦐",
+      "color": "from-blue-400 to-cyan-500"
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "icon": "🍗",
+      "color": "from-amber-400 to-yellow-500"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "icon": "🍰",
+      "color": "from-pink-400 to-rose-500"
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "icon": "🥤",
+      "color": "from-teal-400 to-blue-500"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Caesar Salad Supreme",
+      "category": "appetizers",
+      "price": 12.99,
+      "description": "Fresh romaine lettuce with parmesan cheese, croutons, and our signature caesar dressing",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.5,
+      "popular": true,
+      "prepTime": "10 min"
+    },
+    {
+      "id": 2,
+      "name": "Buffalo Wings Deluxe",
+      "category": "appetizers",
+      "price": 14.99,
+      "description": "Spicy buffalo chicken wings served with blue cheese dip and celery sticks",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.7,
+      "popular": true,
+      "prepTime": "15 min"
+    },
+    {
+      "id": 3,
+      "name": "Mozzarella Sticks",
+      "category": "appetizers",
+      "price": 9.99,
+      "description": "Golden fried mozzarella with marinara sauce",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.3,
+      "prepTime": "12 min"
+    },
+    {
+      "id": 4,
+      "name": "Loaded Nachos Supreme",
+      "category": "appetizers",
+      "price": 16.99,
+      "description": "Crispy tortilla chips loaded with cheese, jalapeños, sour cream, and guacamole",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "prepTime": "8 min"
+    },
+    {
+      "id": 5,
+      "name": "Spinach Artichoke Dip",
+      "category": "appetizers",
+      "price": 11.99,
+      "description": "Creamy spinach and artichoke dip with warm tortilla chips",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.4,
+      "prepTime": "10 min"
+    },
+    {
+      "id": 6,
+      "name": "Crispy Onion Rings",
+      "category": "appetizers",
+      "price": 8.99,
+      "description": "Beer-battered onion rings with spicy mayo",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.2,
+      "prepTime": "12 min"
+    },
+    {
+      "id": 7,
+      "name": "Loaded Potato Skins",
+      "category": "appetizers",
+      "price": 13.99,
+      "description": "Crispy potato skins with bacon, cheese, and green onions",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.5,
+      "prepTime": "15 min"
+    },
+    {
+      "id": 8,
+      "name": "Calamari Rings",
+      "category": "appetizers",
+      "price": 15.99,
+      "description": "Fresh squid rings with spicy marinara sauce",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.3,
+      "prepTime": "10 min"
+    },
+    {
+      "id": 9,
+      "name": "Classic Cheeseburger",
+      "category": "burgers",
+      "price": 15.99,
+      "description": "Juicy beef patty with cheese, lettuce, tomato, pickles, and our special sauce",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "popular": true,
+      "prepTime": "18 min"
+    },
+    {
+      "id": 10,
+      "name": "Bacon BBQ Burger",
+      "category": "burgers",
+      "price": 18.99,
+      "description": "Beef patty with crispy bacon, BBQ sauce, and onion rings",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.8,
+      "popular": true,
+      "prepTime": "20 min"
+    },
+    {
+      "id": 11,
+      "name": "Mushroom Swiss Burger",
+      "category": "burgers",
+      "price": 17.99,
+      "description": "Beef patty with sautéed mushrooms and melted Swiss cheese",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.5,
+      "prepTime": "18 min"
+    },
+    {
+      "id": 12,
+      "name": "Plant-Based Burger",
+      "category": "burgers",
+      "price": 14.99,
+      "description": "Delicious plant-based patty with avocado and sprouts",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.2,
+      "prepTime": "15 min"
+    },
+    {
+      "id": 13,
+      "name": "Double Deluxe Burger",
+      "category": "burgers",
+      "price": 22.99,
+      "description": "Two beef patties with all the premium fixings",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.7,
+      "prepTime": "22 min"
+    },
+    {
+      "id": 14,
+      "name": "Spicy Jalapeño Burger",
+      "category": "burgers",
+      "price": 16.99,
+      "description": "Beef patty with jalapeños and pepper jack cheese",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.4,
+      "prepTime": "18 min"
+    },
+    {
+      "id": 15,
+      "name": "Turkey Avocado Burger",
+      "category": "burgers",
+      "price": 17.99,
+      "description": "Lean turkey patty with fresh avocado and sprouts",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.3,
+      "prepTime": "18 min"
+    },
+    {
+      "id": 16,
+      "name": "Crispy Fish Burger",
+      "category": "burgers",
+      "price": 16.99,
+      "description": "Crispy fish fillet with tartar sauce and lettuce",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.1,
+      "prepTime": "16 min"
+    },
+    {
+      "id": 17,
+      "name": "Margherita Pizza",
+      "category": "pizza",
+      "price": 16.99,
+      "description": "Fresh mozzarella, tomatoes, basil, and olive oil",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "popular": true,
+      "prepTime": "25 min"
+    },
+    {
+      "id": 18,
+      "name": "Pepperoni Classic",
+      "category": "pizza",
+      "price": 18.99,
+      "description": "Classic pepperoni with mozzarella cheese",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.7,
+      "popular": true,
+      "prepTime": "25 min"
+    },
+    {
+      "id": 19,
+      "name": "Supreme Pizza",
+      "category": "pizza",
+      "price": 22.99,
+      "description": "Pepperoni, sausage, peppers, onions, and mushrooms",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.8,
+      "prepTime": "28 min"
+    },
+    {
+      "id": 20,
+      "name": "Hawaiian Paradise",
+      "category": "pizza",
+      "price": 19.99,
+      "description": "Ham and pineapple with mozzarella cheese",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.2,
+      "prepTime": "25 min"
+    },
+    {
+      "id": 21,
+      "name": "Meat Lovers Pizza",
+      "category": "pizza",
+      "price": 24.99,
+      "description": "Pepperoni, sausage, bacon, and ham",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.9,
+      "prepTime": "30 min"
+    },
+    {
+      "id": 22,
+      "name": "Veggie Supreme",
+      "category": "pizza",
+      "price": 20.99,
+      "description": "Bell peppers, onions, mushrooms, olives, and tomatoes",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.4,
+      "prepTime": "25 min"
+    },
+    {
+      "id": 23,
+      "name": "BBQ Chicken Pizza",
+      "category": "pizza",
+      "price": 21.99,
+      "description": "Grilled chicken with BBQ sauce and red onions",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "prepTime": "28 min"
+    },
+    {
+      "id": 24,
+      "name": "White Pizza Deluxe",
+      "category": "pizza",
+      "price": 18.99,
+      "description": "Ricotta, mozzarella, garlic, and herbs",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.3,
+      "prepTime": "25 min"
+    },
+    {
+      "id": 25,
+      "name": "Spaghetti Carbonara",
+      "category": "pasta",
+      "price": 17.99,
+      "description": "Creamy pasta with bacon, eggs, and parmesan",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.7,
+      "popular": true,
+      "prepTime": "20 min"
+    },
+    {
+      "id": 26,
+      "name": "Fettuccine Alfredo",
+      "category": "pasta",
+      "price": 16.99,
+      "description": "Rich and creamy alfredo sauce with fettuccine",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.5,
+      "prepTime": "18 min"
+    },
+    {
+      "id": 27,
+      "name": "Penne Arrabbiata",
+      "category": "pasta",
+      "price": 15.99,
+      "description": "Spicy tomato sauce with penne pasta and herbs",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.4,
+      "prepTime": "16 min"
+    },
+    {
+      "id": 28,
+      "name": "Homemade Lasagna",
+      "category": "pasta",
+      "price": 19.99,
+      "description": "Layered pasta with meat sauce, cheese, and herbs",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.8,
+      "prepTime": "35 min"
+    },
+    {
+      "id": 29,
+      "name": "Chicken Parmigiana",
+      "category": "pasta",
+      "price": 21.99,
+      "description": "Breaded chicken with marinara and mozzarella over pasta",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "prepTime": "25 min"
+    },
+    {
+      "id": 30,
+      "name": "Seafood Linguine",
+      "category": "pasta",
+      "price": 24.99,
+      "description": "Mixed seafood with garlic and white wine sauce",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.7,
+      "prepTime": "22 min"
+    },
+    {
+      "id": 31,
+      "name": "Mushroom Risotto",
+      "category": "pasta",
+      "price": 18.99,
+      "description": "Creamy risotto with wild mushrooms and parmesan",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.5,
+      "prepTime": "25 min"
+    },
+    {
+      "id": 32,
+      "name": "Spinach Ravioli",
+      "category": "pasta",
+      "price": 17.99,
+      "description": "Spinach and ricotta filled ravioli with sage butter",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.3,
+      "prepTime": "18 min"
+    },
+    {
+      "id": 33,
+      "name": "Grilled Atlantic Salmon",
+      "category": "seafood",
+      "price": 26.99,
+      "description": "Fresh Atlantic salmon with lemon butter and herbs",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.8,
+      "popular": true,
+      "prepTime": "20 min"
+    },
+    {
+      "id": 34,
+      "name": "Fish and Chips",
+      "category": "seafood",
+      "price": 18.99,
+      "description": "Beer-battered cod with crispy fries and mushy peas",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.5,
+      "prepTime": "18 min"
+    },
+    {
+      "id": 35,
+      "name": "Shrimp Scampi",
+      "category": "seafood",
+      "price": 22.99,
+      "description": "Garlic butter shrimp over linguine pasta",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "prepTime": "16 min"
+    },
+    {
+      "id": 36,
+      "name": "Maine Lobster Roll",
+      "category": "seafood",
+      "price": 28.99,
+      "description": "Fresh lobster meat in a toasted brioche roll",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.9,
+      "prepTime": "12 min"
+    },
+    {
+      "id": 37,
+      "name": "Maryland Crab Cakes",
+      "category": "seafood",
+      "price": 24.99,
+      "description": "Pan-seared crab cakes with remoulade sauce",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.7,
+      "prepTime": "15 min"
+    },
+    {
+      "id": 38,
+      "name": "Seafood Platter",
+      "category": "seafood",
+      "price": 32.99,
+      "description": "Mixed fried seafood with coleslaw and fries",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.8,
+      "prepTime": "22 min"
+    },
+    {
+      "id": 39,
+      "name": "Seared Ahi Tuna",
+      "category": "seafood",
+      "price": 25.99,
+      "description": "Seared ahi tuna with wasabi sauce and pickled ginger",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "prepTime": "12 min"
+    },
+    {
+      "id": 40,
+      "name": "Mussels Marinara",
+      "category": "seafood",
+      "price": 19.99,
+      "description": "Fresh mussels in spicy tomato broth with garlic bread",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.4,
+      "prepTime": "15 min"
+    },
+    {
+      "id": 41,
+      "name": "Herb Grilled Chicken",
+      "category": "chicken",
+      "price": 19.99,
+      "description": "Herb-seasoned chicken breast with roasted vegetables",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.5,
+      "prepTime": "22 min"
+    },
+    {
+      "id": 42,
+      "name": "Chicken Wings Combo",
+      "category": "chicken",
+      "price": 16.99,
+      "description": "Choice of buffalo, BBQ, or honey garlic wings",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.7,
+      "popular": true,
+      "prepTime": "18 min"
+    },
+    {
+      "id": 43,
+      "name": "Crispy Chicken Tenders",
+      "category": "chicken",
+      "price": 14.99,
+      "description": "Hand-breaded chicken strips with honey mustard",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.4,
+      "prepTime": "15 min"
+    },
+    {
+      "id": 44,
+      "name": "Chicken Quesadilla",
+      "category": "chicken",
+      "price": 15.99,
+      "description": "Grilled chicken with cheese in flour tortilla",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "prepTime": "12 min"
+    },
+    {
+      "id": 45,
+      "name": "BBQ Half Chicken",
+      "category": "chicken",
+      "price": 18.99,
+      "description": "Half chicken with smoky BBQ glaze and sides",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.5,
+      "prepTime": "25 min"
+    },
+    {
+      "id": 46,
+      "name": "Chicken Fajitas",
+      "category": "chicken",
+      "price": 17.99,
+      "description": "Sizzling chicken with peppers, onions, and tortillas",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "prepTime": "18 min"
+    },
+    {
+      "id": 47,
+      "name": "Chicken Caesar Wrap",
+      "category": "chicken",
+      "price": 13.99,
+      "description": "Grilled chicken caesar salad in a spinach wrap",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.3,
+      "prepTime": "10 min"
+    },
+    {
+      "id": 48,
+      "name": "Teriyaki Chicken Bowl",
+      "category": "chicken",
+      "price": 16.99,
+      "description": "Grilled chicken with teriyaki glaze over rice",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.4,
+      "prepTime": "16 min"
+    },
+    {
+      "id": 49,
+      "name": "Decadent Chocolate Cake",
+      "category": "desserts",
+      "price": 7.99,
+      "description": "Rich chocolate layer cake with ganache frosting",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.8,
+      "popular": true,
+      "prepTime": "5 min"
+    },
+    {
+      "id": 50,
+      "name": "New York Cheesecake",
+      "category": "desserts",
+      "price": 6.99,
+      "description": "Classic cheesecake with fresh berry compote",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.7,
+      "prepTime": "5 min"
+    },
+    {
+      "id": 51,
+      "name": "Tiramisu",
+      "category": "desserts",
+      "price": 8.99,
+      "description": "Classic Italian coffee-flavored dessert with mascarpone",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "prepTime": "5 min"
+    },
+    {
+      "id": 52,
+      "name": "Ice Cream Sundae",
+      "category": "desserts",
+      "price": 5.99,
+      "description": "Three scoops with chocolate sauce, nuts, and cherry",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.4,
+      "prepTime": "3 min"
+    },
+    {
+      "id": 53,
+      "name": "Homemade Apple Pie",
+      "category": "desserts",
+      "price": 6.99,
+      "description": "Warm apple pie with vanilla ice cream",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.5,
+      "prepTime": "8 min"
+    },
+    {
+      "id": 54,
+      "name": "Brownie Explosion",
+      "category": "desserts",
+      "price": 7.99,
+      "description": "Warm brownie with ice cream, caramel, and whipped cream",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "prepTime": "6 min"
+    },
+    {
+      "id": 55,
+      "name": "Crème Brûlée",
+      "category": "desserts",
+      "price": 8.99,
+      "description": "Classic French custard with caramelized sugar top",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.7,
+      "prepTime": "5 min"
+    },
+    {
+      "id": 56,
+      "name": "Fresh Fruit Tart",
+      "category": "desserts",
+      "price": 7.99,
+      "description": "Seasonal fruits on vanilla pastry cream",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.3,
+      "prepTime": "5 min"
+    },
+    {
+      "id": 57,
+      "name": "Coca Cola",
+      "category": "beverages",
+      "price": 2.99,
+      "description": "Classic Coca Cola served ice cold",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.5,
+      "prepTime": "1 min"
+    },
+    {
+      "id": 58,
+      "name": "Fresh Orange Juice",
+      "category": "beverages",
+      "price": 4.99,
+      "description": "Freshly squeezed orange juice",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "prepTime": "2 min"
+    },
+    {
+      "id": 59,
+      "name": "Iced Tea",
+      "category": "beverages",
+      "price": 2.99,
+      "description": "Refreshing iced tea with lemon slice",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.3,
+      "prepTime": "1 min"
+    },
+    {
+      "id": 60,
+      "name": "Premium Coffee",
+      "category": "beverages",
+      "price": 3.99,
+      "description": "Freshly brewed premium coffee blend",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.4,
+      "prepTime": "3 min"
+    },
+    {
+      "id": 61,
+      "name": "Gourmet Milkshake",
+      "category": "beverages",
+      "price": 5.99,
+      "description": "Vanilla, chocolate, or strawberry milkshake with whipped cream",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.7,
+      "popular": true,
+      "prepTime": "4 min"
+    },
+    {
+      "id": 62,
+      "name": "Fresh Lemonade",
+      "category": "beverages",
+      "price": 3.99,
+      "description": "House-made lemonade with fresh mint",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.5,
+      "prepTime": "2 min"
+    },
+    {
+      "id": 63,
+      "name": "Tropical Smoothie",
+      "category": "beverages",
+      "price": 6.99,
+      "description": "Mixed berry or tropical fruit smoothie",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.6,
+      "prepTime": "3 min"
+    },
+    {
+      "id": 64,
+      "name": "Sparkling Water",
+      "category": "beverages",
+      "price": 2.99,
+      "description": "Premium sparkling water with lime",
+      "image": "/placeholder.svg?height=250&width=350",
+      "rating": 4.2,
+      "prepTime": "1 min"
+    }
+  ]
+}
